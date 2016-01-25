@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bandeja de Correo</title>
+  <link type="text/css" rel="stylesheet" href="http://onlinehtmltools.com/tab-generator/skins/skin8/left.css"></script> 
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://onlinehtmltools.com/tab-generator/skinable_tabs.min.js"></script>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="js/bootstrap.min.js">
+
+  
+ 
+
+ 
+</head>
+<body >
+<div class="container">
+  <header>
+    <nav class="navbar navbar-fixed-top navbar-inverse ">
+      <div class="container-fluid">
+        <div  class="navbar-header">
+          <!-- <a> es el nombre del proyecto, se puede reemplazar por un logo... **consultar** -->
+          <a href="inicio.html" class="navbar-brand">SPORT-SITE</a> 
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
+<br>
+<div class="col-md-4 col-md-offset-4">
+<button type="button" class="btn btn-lg btn-primary btn-block">Redactar</button>
+</div>
+<br><br><br>
+<div class="tabs_holder">
+  
+ <ul>
+  <li><a href="#your-tab-id-1">Bandeja de Correo</a></li>
+  <li class="tab_selected"><a href="#your-tab-id-2">Enviados</a></li>
+   <li><a href="#your-tab-id-3">Eliminados</a></li>
+    
+ </ul>
+ <div class="content_holder">
+  <div id="your-tab-id-1">
+   Some content tab 1.
+  </div>
+  <div id="your-tab-id-2">
+   Some content tab 2
+  </div>
+  <div id="your-tab-id-3">
+   Some content tab 3
+  </div>
+
+ </div><!-- /.content_holder -->
+</div><!-- /.tabs_holder -->
+
+<script type="text/javascript">
+  $('.tabs_holder').skinableTabs({
+    effect: 'overlapping',
+    skin: 'skin8',
+    position: 'left'
+  });
+</script>
+
+</body>
+</html>
